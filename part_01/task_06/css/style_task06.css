@@ -1,0 +1,389 @@
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%
+}
+body {
+	margin: 0;
+	background: gray;
+}
+.wrap{
+	width: 980px;
+	height: 1386px;
+	margin: 0 auto;
+	background: white;
+}
+.top{
+	margin: 0 44px;
+	width: 892px;
+	height: 61px;
+	border-bottom: 2px solid #938e8c;
+}
+.main{
+	margin: 0 44px;
+	width: 892px;
+	border-bottom: 2px solid #938e8c;
+}
+.foot{
+	margin: 0 44px;
+	width: 892px;
+	float: right;
+	background-color: transparent;
+	text-align: right;
+}
+
+.top_left,.top_right{
+	float: left;
+	width: 110px;
+	height: 61px;
+	background-color: #d45d5d;
+}
+.top_right{
+	float: right;
+	background-color: transparent;
+	text-align: right;
+}
+.top_left p,.top_right p{
+	font-family: "黑体";
+	color: #ffffff;
+	font-size: 12px;
+	margin-top: 45px;
+	margin-left: 5px;
+}
+.top_right p{
+	color: #d45d5c;
+	margin-right: 3px;
+}
+
+
+#img01{
+	height: 301px;
+	width: 641px;
+	margin-top: 35px;
+}
+.main_top_right{
+	float: right;
+	width: 203px;
+	height: 299px;
+	border-top: 2px solid #cc8091;
+	margin-top: 35px;
+	font-family: "Microsoft Yahei";
+}
+p.top_line{
+	margin: 0;
+	height: 35px;
+	line-height: 40px;	
+	color: #000000;
+	font-size: 24px;
+	font-weight: 400;
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid #444;
+	display: inline-block;
+}
+p.top_i{
+	color: #676767;
+	font-size: 12px;
+	font-weight: 500;
+	font-family: "楷体";
+	margin: 0;
+	margin-top: 5px;
+	line-height: 10px;	
+}
+p.top_big{
+	color: #75b86b;
+	font-size: 116px;
+    font-style: italic;
+    margin: 0;
+    margin-left: -18px;
+}
+.top_b{
+	margin-top: -13px;
+}
+span.top_b1{
+	color: #cc8091;
+	font-size: 55px;
+}
+.top_b2{
+	display: inline-block;
+}
+.top_b2_1{
+	color: #cc8091;
+	font-size: 21px;
+	margin: 0;
+	margin-bottom: -5px;
+}
+.top_b2_2{
+	color: #bdbdbd;
+	font-size: 12px;
+	margin: 0;
+}
+
+
+.main_middle{
+	height: 200px;
+	width: 640px;
+	display: flex;
+	font-family: "Microsoft Yahei";
+	margin-top: 20px;
+}
+.middle_1,.middle_2{
+	margin-right: 25px;
+}
+.middle_1{
+	flex: 2.5;
+}
+.middle_2{
+	flex: 2.2;
+}
+.middle_3{
+	flex: 1.5;
+}
+p.middle_line{
+	border-bottom: 1px solid;
+	display: inline-block;
+	font-weight: 600;
+	font-size: 16px;
+}
+.middle_1 p.middle_line{
+	color: #418c59;
+}
+.middle_2 p.middle_line{
+	color: #d2994f;
+}
+.middle_3 p.middle_line{
+	color: #cc7680;
+}
+p.middle_unline{
+	font-size: 12px;
+	color: #231815;
+	line-height: 16px;
+	opacity:0.7;
+	filter:Alpha(opacity=70); /* IE8 and earlier */
+	margin: -5px 0 0 0; 
+}
+.m_how_1{
+	margin-top: 6px;
+	height: 70px;
+}
+.middle_3 .middle_unline{
+	line-height: 5px;
+}
+.m_how_2{
+	margin: 13px 0 5px 5px;
+}
+.per{
+	color: #cd4a48;
+	font-style: italic;
+}
+
+
+.main_bottom{
+	/*height: 610px;*/
+	display: flex;
+	margin: 30px auto;
+}
+.bottom_1{
+	flex: 0.87;
+}
+.bottom_2{
+	flex: 1;
+	margin-left: 19px;
+	padding-top: 45px;
+}
+.bottom_1_1{
+	border-bottom: 2px solid #11456b;
+	width: 415px;
+	height: 160px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.bottom_1_1 p{
+	font-family: "黑体";
+	font-weight: bold;
+	display: inline;
+	margin: 0;
+}
+.bottom_1_y{
+	font-size: 72px;
+	color: #f5e327;
+	font-style: italic;
+}
+.bottom_1_b{
+	font-size: 42px;
+	color: #11456b;
+	line-height: 16px;
+}
+.bottom_1_c{
+	font-size: 33px;
+	color: #11456b;
+	line-height: 50px;
+}
+.bottom_1_2 p{
+	margin: 0;
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	line-height: 16px;
+}
+.bottom_1_2 span{
+	font-size: 70px;
+	color: #f5e327;
+	font-family: "Microsoft Yahei";
+	float: left;
+	padding: 0 8px 8px 0;
+	/*margin-top: -14px;*/
+	line-height: 70px;
+}
+.bottom_1_2 img{
+	float: right;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+.aticle_ind{
+	text-indent: 2em;
+}
+
+
+.bottom_2_1{
+	background: url("../image/3.png");
+	height: 257px;
+	position: relative;
+}
+.bottom_2_1_wrap{
+	background: url("../image/3_1.png");
+	height: 60px;
+	width: 458px;
+	position: absolute;
+	top: 197px;
+}
+.bottom_2_1_cont{
+	height: 44px;
+	line-height: 44px;
+	border-left: 3px solid #72b16a;
+	margin-left: 45px;
+	margin-top:  8.5px;
+	font-family: "Microsoft Yahei";
+}
+.bottom_2_1_cont p{
+	margin: 0;
+	margin-left: 15px;
+	font-size: 12px;
+	color: #72b16a;
+	word-spacing: 140%;
+}
+.bottom_2_1_cont span{
+	color: white;
+	font-size: 26px;
+}
+.bottom_2_2{
+	height: 318px;
+	width: 459px;
+	background: #ededd5;
+	margin-top: 24px;
+	position: relative;
+	font-family: "黑体";
+}
+.bottom_2_2 p{
+	margin:0;
+}
+.bottom_2_2_wrap{
+	background: #d45d5d;
+	width: 260px;
+	height: 160px;
+	position: absolute;
+	top: 158px;
+	color: white;
+}
+.bottom_2_2_cont, .bottom_2_2_cont p{
+	margin: 0 10px;
+	height: inherit;
+}
+.bottom_2_2_cont *{
+	display: inline-block;
+}
+.bottom_2_2_cont span{
+	font-size: 110px;
+	font-family: "Microsoft Yahei";
+	margin-top: 7.5px;
+}
+div.bottom_2_2_1{
+	border-left: 2px solid;
+	height: 87px;
+	width: 165px;
+	float: right;
+	margin-top: 39px;
+}
+p.bottom_2_2_1{
+	font-size: 21px;
+	font-style: italic;
+	line-height: 24px;
+	height: 52px;
+	margin-top: 5px;
+}
+p.bottom_2_2_2{
+	font-size: 12px;
+	line-height: 12px;
+	height: 35px;
+}
+.triangle-up{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #0b4575;
+    display: inline-block;
+    margin-left: 25px;
+}
+p.align_left, p.align_right{
+	font-size: 16px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	line-height: 20px;
+	padding: 24px 20px 0 8px;
+	display: inline-block;
+}
+p.align_right{
+	float: right;
+}
+.bottom_2_3_wrap{
+	/*background: #d45d5d;*/
+	width: 180px;
+	height: 130px;
+	position: absolute;
+	/*top: 165px;*/
+	top: 190px;
+	left: 270px;
+	font-family: "黑体";
+}
+.bottom_2_3_wrap p{
+	font-size: 14px;
+	color: #5a5b5b;
+	/*font-style: italic;*/
+	line-height: 16px;
+	font-weight: 500;
+	margin-top: -10px;
+}
+span.bottom_2_3_1, span.bottom_2_3_2{
+	font-size: 72px;
+	color: #d45d5c;
+	height: 0px;
+	width: 20px;
+	float: left;
+	display: inline-block;
+	margin-left: -37px;
+	padding-right: 60px;
+	padding-top: 15px;
+}
+span.bottom_2_3_2{
+	float: right;
+	padding-right: 28px;
+	padding-top: 30px;
+}
+
+
+.foot p{
+	font-family: "黑体";
+	color: #d45d5c;
+	font-size: 12px;
+	margin-top: 3px;
+	font-weight: 600;
+}
